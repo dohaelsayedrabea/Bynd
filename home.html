@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <title>Bynd</title>
+    <meta name="description" content="">
+    <!-- responsive tag -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" href="assets/images/logo/Logo.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/Logo.svg">
+    <!-- bootstrap v5 css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Swiper Slider css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/js/gsap.min.js"></script>
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body id="vertical">
+    <!-- ============================================================== -->
+    <!--  loading - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="screen">
+
+        <div class="loader">
+            <img src="assets/images/logo/whiteLogo.svg" alt="img" />
+        </div>
+
+    </div>
+    <!-- ============================================================== -->
+    <!--  - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="cursor">
+        <div class="cursor__ball cursor__ball--big ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
+                <rect x="0.566016" y="0.800879" width="34.034" height="34.034" rx="17.017" stroke="#171717" stroke-width="0.8"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!--  Header - style you can find in style.css -->
+    <!-- ============================================================== -->
+
+    <nav data-lenis-prevent>
+        <ul class="pushNav js-topPushNav">
+            <li class="closeLevel js-closeLevelTop hdg">
+                <img src="assets/images/header/x-close.svg" alt="icon" />
+            </li>
+            <!---->
+            <li>
+                <a href="#" class="active"> Welecome </a>
+            </li>
+            <!---->
+            <li>
+                <a href="#">about Us</a>
+            </li>
+            <!---->
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <!---->
+            <li>
+                <a href="#">Solutions</a>
+            </li>
+            <!---->
+            <li>
+                <a href="#">Recent works</a>
+            </li>
+            <!---->
+            <li>
+                <a href="#">Careers</a>
+            </li>
+            <!---->
+            <li>
+                <a href="#">Talk to us</a>
+            </li>
+            <!---->
+            <li class="bottomList">
+                <div class="cardNav">
+                    <span>HR</span>
+                    <a href="#">Hr@Byndco.com</a>
+                </div>
+                <!---->
+                <div class="cardNav">
+                    <span>Business Team</span>
+                    <a href="#">Bd@Byndco.com</a>
+                </div>
+                <!---->
+                <div class="cardNav">
+                    <h3>Follow us</h3>
+                    <div class="socila">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17" fill="none">
+                                <path d="M18.3843 4.3485C18.397 4.52615 18.397 4.70385 18.397 4.8815C18.397 10.3003 14.2727 16.5439 6.7346 16.5439C4.41226 16.5439 2.25491 15.8713 0.440186 14.7038C0.770146 14.7419 1.08737 14.7546 1.43003 14.7546C3.34624 14.7546 5.11022 14.1074 6.51886 13.0033C4.71683 12.9653 3.20667 11.7851 2.68636 10.1607C2.94019 10.1987 3.19397 10.2241 3.4605 10.2241C3.82851 10.2241 4.19655 10.1733 4.53917 10.0846C2.66101 9.70381 1.25233 8.05408 1.25233 6.0617V6.01096C1.798 6.31553 2.43257 6.50588 3.10511 6.53123C2.00104 5.79518 1.27772 4.53885 1.27772 3.11752C1.27772 2.35611 1.48073 1.65814 1.83608 1.049C3.85386 3.53631 6.88687 5.16064 10.2878 5.33834C10.2244 5.03377 10.1863 4.71654 10.1863 4.39928C10.1863 2.14037 12.0137 0.300293 14.2853 0.300293C15.4655 0.300293 16.5315 0.795215 17.2802 1.59471C18.2066 1.41705 19.0949 1.07439 19.8817 0.604863C19.5771 1.55666 18.93 2.35615 18.0797 2.86373C18.9046 2.77494 19.7041 2.54646 20.4401 2.22924C19.8818 3.04139 19.1838 3.76471 18.3843 4.3485Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                                <path d="M4.60737 17.922H0.979248V6.23838H4.60737V17.922ZM2.79136 4.64463C1.6312 4.64463 0.690186 3.68369 0.690186 2.52354C0.690186 1.96627 0.911558 1.43183 1.3056 1.03778C1.69965 0.643736 2.23409 0.422363 2.79136 0.422363C3.34862 0.422363 3.88306 0.643736 4.27711 1.03778C4.67116 1.43183 4.89253 1.96627 4.89253 2.52354C4.89253 3.68369 3.95112 4.64463 2.79136 4.64463ZM18.1863 17.922H14.566V12.2345C14.566 10.879 14.5386 9.14072 12.6796 9.14072C10.7933 9.14072 10.5042 10.6134 10.5042 12.1368V17.922H6.88003V6.23838H10.3597V7.83213H10.4105C10.8949 6.91416 12.0781 5.94541 13.8433 5.94541C17.5152 5.94541 18.1902 8.36338 18.1902 11.504V17.922H18.1863Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                <path d="M16.3152 0.671875H2.56519C2.0679 0.671875 1.59099 0.869419 1.23936 1.22105C0.88773 1.57268 0.690186 2.04959 0.690186 2.54688L0.690186 16.2969C0.690186 16.7942 0.88773 17.2711 1.23936 17.6227C1.59099 17.9743 2.0679 18.1719 2.56519 18.1719H7.92651V12.2223H5.46558V9.42188H7.92651V7.2875C7.92651 4.85977 9.37183 3.51875 11.5855 3.51875C12.6457 3.51875 13.7542 3.70781 13.7542 3.70781V6.09062H12.5328C11.3292 6.09062 10.9539 6.8375 10.9539 7.60352V9.42188H13.6406L13.2109 12.2223H10.9539V18.1719H16.3152C16.8125 18.1719 17.2894 17.9743 17.641 17.6227C17.9926 17.2711 18.1902 16.7942 18.1902 16.2969V2.54688C18.1902 2.04959 17.9926 1.57268 17.641 1.22105C17.2894 0.869419 16.8125 0.671875 16.3152 0.671875Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                <path d="M9.44409 4.92969C6.95972 4.92969 4.95581 6.93359 4.95581 9.41797C4.95581 11.9023 6.95972 13.9062 9.44409 13.9062C11.9285 13.9062 13.9324 11.9023 13.9324 9.41797C13.9324 6.93359 11.9285 4.92969 9.44409 4.92969ZM9.44409 12.3359C7.83862 12.3359 6.52612 11.0273 6.52612 9.41797C6.52612 7.80859 7.83472 6.5 9.44409 6.5C11.0535 6.5 12.3621 7.80859 12.3621 9.41797C12.3621 11.0273 11.0496 12.3359 9.44409 12.3359ZM15.1628 4.74609C15.1628 5.32812 14.6941 5.79297 14.116 5.79297C13.5339 5.79297 13.0691 5.32422 13.0691 4.74609C13.0691 4.16797 13.5378 3.69922 14.116 3.69922C14.6941 3.69922 15.1628 4.16797 15.1628 4.74609ZM18.1355 5.80859C18.0691 4.40625 17.7488 3.16406 16.7214 2.14062C15.698 1.11719 14.4558 0.796875 13.0535 0.726562C11.6082 0.644531 7.27612 0.644531 5.83081 0.726562C4.43237 0.792969 3.19019 1.11328 2.16284 2.13672C1.1355 3.16016 0.819092 4.40234 0.748779 5.80469C0.666748 7.25 0.666748 11.582 0.748779 13.0273C0.815186 14.4297 1.1355 15.6719 2.16284 16.6953C3.19019 17.7188 4.42847 18.0391 5.83081 18.1094C7.27612 18.1914 11.6082 18.1914 13.0535 18.1094C14.4558 18.043 15.698 17.7227 16.7214 16.6953C17.7449 15.6719 18.0652 14.4297 18.1355 13.0273C18.2175 11.582 18.2175 7.25391 18.1355 5.80859ZM16.2683 14.5781C15.9636 15.3438 15.3738 15.9336 14.6042 16.2422C13.4519 16.6992 10.7175 16.5938 9.44409 16.5938C8.17065 16.5938 5.43237 16.6953 4.28394 16.2422C3.51831 15.9375 2.92847 15.3477 2.61987 14.5781C2.16284 13.4258 2.26831 10.6914 2.26831 9.41797C2.26831 8.14453 2.16675 5.40625 2.61987 4.25781C2.92456 3.49219 3.5144 2.90234 4.28394 2.59375C5.43628 2.13672 8.17065 2.24219 9.44409 2.24219C10.7175 2.24219 13.4558 2.14062 14.6042 2.59375C15.3699 2.89844 15.9597 3.48828 16.2683 4.25781C16.7253 5.41016 16.6199 8.14453 16.6199 9.41797C16.6199 10.6914 16.7253 13.4297 16.2683 14.5781Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <!---->
+        </ul>
+
+    </nav>
+    <header data-lenis-prevent>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <a href="#" class="logo">
+                        <img class="colorLogo" src="assets/images/logo/Logo.svg" alt="Logo" />
+                        <img class="whiteLogo" src="assets/images/logo/whiteLogo.svg" alt="Logo" />
+                    </a>
+                </div>
+                <!---->
+                <div class="col-6 p-relative">
+                    <div class="burger js-menuToggle">
+                        <img src="assets/images/header/openNav.svg" alt="Icon" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ============================================================== -->
+    <!--  Home Slider - style you can find in style.css -->
+    <!-- ============================================================== -->
+
+    <section class="bannerSection">
+        <div id="cursor" class="cursorSpecific">
+            <span>Our
+                <br> Works</span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper bannerSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <span class="spanTextColorBlue">Think.</span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Design.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Develop.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Launch.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">Repeat.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!---->
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <span class="normalColor">Think.</span>
+                                    </li>
+                                    <li>
+                                        <span class="spanTextColorpurple">
+                                            Design.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Develop.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Launch.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">Repeat.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!---->
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <span class="normalColor">Think.</span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Design.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="spanTextColorGreen">
+                                            Develop.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Launch.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">Repeat.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!---->
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <span class="normalColor">Think.</span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Design.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Develop.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="spanTextColorOrange">
+                                            Launch.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">Repeat.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!---->
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <span class="normalColor">Think.</span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Design.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Develop.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="normalColor">
+                                            Launch.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="spanTextColorGray">Repeat.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!---->
+                        </div>
+                    </div>
+                    <!---->
+                    <p>
+                        We’re adigital agency that helps clients get totomorrow faster.
+                    </p>
+                    <video class="w-100" autoplay loop muted>
+                        <source src="assets/video/bannerVideo.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!--- About bynd -style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="aboutSection">
+        <div class="container-fluid halfcontainer">
+            <div class="row">
+                <div class="col-xxl-5 col-lg-5 col-md-12">
+                    <div class="aboutTextPart">
+                        <div class="CountTitleSection">
+                            <ul>
+                                <li>
+                                    <span class="number">01</span>
+                                </li>
+                                <li>
+                                    <span class="line">
+
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="title">about bynd</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3>We help organizations deliver outstanding experiences</h3>
+                        <p>
+                            At Beyond Co our approach towards software development converges seamlessly with a business-oriented approach.
+                        </p>
+                        <p>
+                            We understand that the link between technology and strategic vision is paramount when crafting customer projects. Our expertise lies not only in code but in the strategic thinking that fuels it.
+                        </p>
+                        <p>
+                            ensuring your projects are not just functional, but also aligned with your broader business goals.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xxl-7 col-lg-7 col-md-12">
+                    <div class='container-img'>
+                        <div class="fadeit">
+                            <div class='reveal'>
+                                <img src="assets/images/about/about.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ============================================================== -->
+    <!--  Why choose us- style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="solutionSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="CountTitleSection">
+                        <ul>
+                            <li>
+                                <span class="title">Why choose us</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-6 col-md-12">
+                    <div class="sectionTitle">
+                        <h3>
+                            Ready to take your ambitious project from intriguing idea to smashing success?
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="solutionCard h-100">
+                        <div class="iconCard">
+                            <img src="assets/images/solution/Innovators.svg" alt="Icon" />
+                        </div>
+                        <!---->
+                        <div class="textCard">
+                            <h3>
+                                We are Innovators
+                            </h3>
+                            <p>
+                                We blend Design and Engineering to deliver memorable customer experiences
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="solutionCard h-100">
+                        <div class="iconCard">
+                            <img src="assets/images/solution/Flexible.svg" alt="Icon" />
+                        </div>
+                        <!---->
+                        <div class="textCard">
+                            <h3>
+                                We are Flexible
+                            </h3>
+                            <p>
+                                We adapt to our customer demands easily. No change orders required. We dont work for our clients. We work with our clients.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="solutionCard h-100">
+                        <div class="iconCard">
+                            <img src="assets/images/solution/Disruptive.svg" alt="Icon" />
+                        </div>
+                        <!---->
+                        <div class="textCard">
+                            <h3>
+                                We are Disruptive
+                            </h3>
+                            <p>
+                                Changing is hard. We make it easier for our clients to embrace new trends and technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="solutionCard h-100">
+                        <div class="iconCard">
+                            <img src="assets/images/solution/Empathetic.svg" alt="Icon" />
+                        </div>
+                        <!---->
+                        <div class="textCard">
+                            <h3>
+                                We are Empathetic
+                            </h3>
+                            <p>
+                                Our clients needs are our needs. We feel the pain and work towards solving them as ours.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!--   Our seriveces - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="ourServices">
+        <div class="container-fluid halfcontainer">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-8 col-sm-12">
+                    <div class="textPart">
+                        <div class="CountTitleSection">
+                            <ul>
+                                <li>
+                                    <span class="number">02</span>
+                                </li>
+                                <li>
+                                    <span class="line">
+    
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="title">Our seriveces</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3>
+                            We help organizations deliver outstanding experiences
+                        </h3>
+                        <p>Our mission is to sculpt software solutions that serve as catalysts for your business initiation and growth. We are committed to crafting code that not only functions flawlessly but also contributes to your overall business strategy,
+                            delivering real value and sustainable success.</p>
+                    </div>
+                    <!--What We Deliver-->
+                    <div class="deliverSection">
+                        <h4>What We Deliver</h4>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="accordion accordion-flush" id="accordionFlushOne">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <img src="assets/images/services/design.svg" alt="Design" />
+                                            <span>Design</span>
+                                        </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushOne">
+                                            <ul class="bodyList">
+                                                <li>
+                                                    Website Design
+                                                </li>
+                                                <li>
+                                                    Mobile App Design
+                                                </li>
+                                                <li>
+                                                    Wireframe Design
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                          <img src="assets/images/services/Strategy.svg" alt="Strategy" />
+                                          <span>Strategy</span>
+                                        </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushOne">
+                                            <ul class="bodyList">
+                                                <li>
+                                                    Website Design
+                                                </li>
+                                                <li>
+                                                    Mobile App Design
+                                                </li>
+                                                <li>
+                                                    Wireframe Design
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                            <div class="col-lg-6 col-md-12">
+                                <div class="accordion accordion-flush" id="accordionFlushTwo">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                <img src="assets/images/services/Development.svg" alt="Development" />
+                                                <span>Development</span>
+                                        </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushTwo">
+                                            <ul class="bodyList">
+                                                <li>
+                                                    Website Design
+                                                </li>
+                                                <li>
+                                                    Mobile App Design
+                                                </li>
+                                                <li>
+                                                    Wireframe Design
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                <img src="assets/images/services/e-commerce.svg" alt="E - Commerce" />
+                                                <span>E - Commerce</span>
+                                        </button>
+                                        </h2>
+                                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushTwo">
+                                            <ul class="bodyList">
+                                                <li>
+                                                    Website Design
+                                                </li>
+                                                <li>
+                                                    Mobile App Design
+                                                </li>
+                                                <li>
+                                                    Wireframe Design
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-4 col-sm-12">
+                    <div class='container-img'>
+                        <div class="fadeit">
+                            <div class='reveal'>
+                                <img src="assets/images/services/services.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!--  Our solutions - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="solutionSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="CountTitleSection">
+                        <ul>
+                            <li>
+                                <span class="number">03</span>
+                            </li>
+                            <li>
+                                <span class="line">
+
+                                </span>
+                            </li>
+                            <li>
+                                <span class="title">Our solutions</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-6 col-md-12">
+                    <div class="sectionTitle">
+                        <h3>
+                            Beyond Enterprise Solutions
+                        </h3>
+                        <p>
+                            At Beyond we work with international partners around the world to bridge and customize their internal systems and solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="solutionCard h-100">
+                        <div class="iconCard">
+                            <img src="assets/images/solution/cloud.svg" alt="Icon" />
+                        </div>
+                        <!---->
+                        <div class="textCard">
+                            <h3>
+                                Cloud Solutions
+                            </h3>
+                            <p>
+                                Cloud solutions are internet-based services that provide storage, management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="solutionCard h-100">
+                        <div class="iconCard">
+                            <img src="assets/images/solution/solution.svg" alt="Icon" />
+                        </div>
+                        <!---->
+                        <div class="textCard">
+                            <h3>
+                                Portals Solutions
+                            </h3>
+                            <p>
+                                Portal solutions are applications or platforms that provide a centralized and personalized interface for users to access a variety of information.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="solutionCard h-100">
+                        <div class="iconCard">
+                            <img src="assets/images/solution/cyber.svg" alt="Icon" />
+                        </div>
+                        <!---->
+                        <div class="textCard">
+                            <h3>
+                                Cyber Security Solutions
+                            </h3>
+                            <p>
+                                Cyber security solutions are technological tools and services that help protect organizations against cyber attacks, which can result in application downtime.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="solutionCard h-100">
+                        <div class="iconCard">
+                            <img src="assets/images/solution/erp.svg" alt="Icon" />
+                        </div>
+                        <!---->
+                        <div class="textCard">
+                            <h3>
+                                ERP Solutions
+                            </h3>
+                            <p>
+                                we provide comprehensive, innovative, and relevant technology solutions for organizations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!--  Solutions Partners - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="solutionPartner">
+        <div class="container">
+            <div class="row">
+                <div class="titleSection">
+                    <span>Our Partners</span>
+                    <h3>Solutions Partners</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 partnerCol">
+                    <div class="PartnerBox">
+                        <img src="assets/images/partners/Partner1.png" alt="images" />
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-4 col-md-6 col-sm-12 partnerCol">
+                    <div class="PartnerBox">
+                        <img src="assets/images/partners/Partner2.png" alt="images" />
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-4 col-md-6 col-sm-12 partnerCol">
+                    <div class="PartnerBox">
+                        <img src="assets/images/partners/Partner3.png" alt="images" />
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-4 col-md-6 col-sm-12 partnerCol">
+                    <div class="PartnerBox">
+                        <img src="assets/images/partners/Partner4.png" alt="images" />
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-4 col-md-6 col-sm-12 partnerCol">
+                    <div class="PartnerBox">
+                        <img src="assets/images/partners/Partner5.png" alt="images" />
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-4 col-md-6 col-sm-12 partnerCol">
+                    <div class="PartnerBox">
+                        <img src="assets/images/partners/Partner6.png" alt="images" />
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!--  our works - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="ourWorks">
+        <div class="container">
+            <div class="row">
+                <div class="CountTitleSection">
+                    <ul>
+                        <li>
+                            <span class="number">04</span>
+                        </li>
+                        <li>
+                            <span class="line">
+
+                            </span>
+                        </li>
+                        <li>
+                            <span class="title">our works</span>
+                        </li>
+                    </ul>
+                </div>
+                <!---->
+                <div class="titleSection">
+                    <h3>Queue Platform</h3>
+                    <p>Ui Ux designe. Web Development</p>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="container-fluid">
+            <!-- Swiper -->
+            <div class="swiper mySwiper ourWorkSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="boxOurWorkSlider">
+                            <article class="wrapper">
+                                <div class="marquee">
+                                    <div class="marquee__group">
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants.
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants.
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                    </div>
+
+                                    <div aria-hidden="true" class="marquee__group">
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants.
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants.
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <!---->
+                            <img src="assets/images/work/slider1.png" alt="image" />
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <div class="boxOurWorkSlider">
+                            <article class="wrapper">
+                                <div class="marquee">
+                                    <div class="marquee__group">
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                    </div>
+
+                                    <div aria-hidden="true" class="marquee__group">
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <!---->
+                            <img src="assets/images/work/slider2.png" alt="image" />
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <div class="boxOurWorkSlider">
+                            <article class="wrapper">
+                                <div class="marquee">
+                                    <div class="marquee__group">
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                    </div>
+
+                                    <div aria-hidden="true" class="marquee__group">
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <!---->
+                            <img src="assets/images/work/slider1.png" alt="image" />
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <div class="boxOurWorkSlider">
+                            <article class="wrapper">
+                                <div class="marquee">
+                                    <div class="marquee__group">
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                    </div>
+
+                                    <div aria-hidden="true" class="marquee__group">
+                                        <span>
+                                            and staffing snafus goodbye
+                                        </span>
+                                        <span>
+                                            Queue Supercharging restaurants
+                                        </span>
+                                        <span>
+                                            Published in 2023
+                                        </span>
+                                        <span>
+                                            Art Direction, Interaction Design, Ui Ux Design, Web Design, Development
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <!---->
+                            <img src="assets/images/work/slider2.png" alt="image" />
+                        </div>
+
+                    </div>
+                    <!---->
+                </div>
+
+            </div>
+
+        </div>
+        <!---->
+        <div class="container p-relative">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!-- Our amazing clients - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="amazingClients">
+        <div class="container ">
+            <div class="CountTitleSection">
+                <ul>
+                    <li>
+                        <span class="title">Our amazing clients</span>
+                    </li>
+                </ul>
+                <h3>Trustworthy</h3>
+            </div>
+        </div>
+        <div class="no-padding">
+            <article class="wrapper">
+                <div class="marquee">
+                    <div class="marquee__group">
+                        <img src="assets/images/clients/Vector1.svg" alt="client" />
+                        <img src="assets/images/clients/Vector2.svg" alt="client" />
+                        <img src="assets/images/clients/Vector3.svg" alt="client" />
+                        <img src="assets/images/clients/Vector4.svg" alt="client" />
+                        <img src="assets/images/clients/Vector5.svg" alt="client" />
+                        <img src="assets/images/clients/Vector7.svg" alt="client" />
+                        <img src="assets/images/clients/Vector8.svg" alt="client" />
+                        <img src="assets/images/clients/Vector9.svg" alt="client" />
+                    </div>
+
+                    <div aria-hidden="true" class="marquee__group">
+                        <img src="assets/images/clients/Vector1.svg" alt="client" />
+                        <img src="assets/images/clients/Vector2.svg" alt="client" />
+                        <img src="assets/images/clients/Vector3.svg" alt="client" />
+                        <img src="assets/images/clients/Vector4.svg" alt="client" />
+                        <img src="assets/images/clients/Vector5.svg" alt="client" />
+                        <img src="assets/images/clients/Vector7.svg" alt="client" />
+                        <img src="assets/images/clients/Vector8.svg" alt="client" />
+                        <img src="assets/images/clients/Vector1.svg" alt="client" />
+                    </div>
+                </div>
+
+                <div class="marquee marquee--reverse">
+                    <div class="marquee__group">
+                        <img src="assets/images/clients/Vector10.svg" alt="client" />
+                        <img src="assets/images/clients/Vector11.svg" alt="client" />
+                        <img src="assets/images/clients/Vector12.svg" alt="client" />
+                        <img src="assets/images/clients/Vector14.svg" alt="client" />
+                        <img src="assets/images/clients/Vector15.svg" alt="client" />
+                        <img src="assets/images/clients/Vector16.svg" alt="client" />
+                        <img src="assets/images/clients/Vector17.svg" alt="client" />
+                    </div>
+
+                    <div aria-hidden="true" class="marquee__group">
+                        <img src="assets/images/clients/Vector10.svg" alt="client" />
+                        <img src="assets/images/clients/Vector11.svg" alt="client" />
+                        <img src="assets/images/clients/Vector12.svg" alt="client" />
+                        <img src="assets/images/clients/Vector14.svg" alt="client" />
+                        <img src="assets/images/clients/Vector15.svg" alt="client" />
+                        <img src="assets/images/clients/Vector16.svg" alt="client" />
+                        <img src="assets/images/clients/Vector17.svg" alt="client" />
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!-- Careers - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="careers">
+        <div class="container-fluid halfcontainer">
+            <div class="row align-items-end">
+                <!-- Text -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="careersTextPart">
+                        <div class="CountTitleSection">
+                            <ul>
+                                <li>
+                                    <span class="number">05</span>
+                                </li>
+                                <li>
+                                    <span class="line">
+            
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="title">careers</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3>Bynd is where the future works. JOIN US!</h3>
+                        <p>
+                            When you’re one of us, you’re part of an industry-leading company that gives you the opportunity to work on projects for the world’s biggest brands. Find your place here at BYND.
+                        </p>
+                        <a class="btn btn-primary" href="#">
+                            <span>Submit Application</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                <path d="M4 12.8743H20M20 12.8743L14 6.87427M20 12.8743L14 18.8743" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="col-lg-6 col-md-12">
+                    <div class='container-img'>
+                        <div class="fadeit">
+                            <div class='reveal'>
+                                <img src="assets/images/carreers/img.jfif" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!-- talk to us - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <section class="talkToUs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="titleSection">
+                        <h3>
+                            How can we <br> help
+                            <span id="app"></span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 colForm">
+                            <div class="formbox">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputname" placeholder=" ">
+                                    <label for="exampleInputname">Your name</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-lg-6 col-md-12 colForm">
+                            <div class="formbox">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputemail" placeholder=" ">
+                                    <label for="exampleInputemail">and your email ?</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-lg-6 col-md-12 colForm">
+                            <div class="formbox">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputCompany" placeholder=" ">
+                                    <label for="exampleInputCompany">Company/organziation</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-lg-6 col-md-12 colForm">
+                            <div class="formbox">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputhelp" placeholder=" ">
+                                    <label for="exampleInputhelp">How can we help?</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="talkToUsInfo">
+                                <div class="talkToUsInfoCard">
+                                    <span>HR</span>
+                                    <a href="mailto:Hr@Byndco.com">Hr@Byndco.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="talkToUsInfo">
+                                <div class="talkToUsInfoCard">
+                                    <span>Business Team</span>
+                                    <a href="mailto:Bd@Byndco.com">Bd@Byndco.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a href="#" class="btn btn-rounded">
+                    Send
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!--  Footer- style you can find in style.css -->
+    <!-- ============================================================== -->
+    <footer>
+        <div class="container">
+            <div class="topFooter">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="footerCard">
+                            <h3 class="titleFooter">Office</h3>
+                            <p class="subTitle">Kuwait City, Sharq, Derwaza 51 Tower.</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="footerCard">
+                            <h3 class="titleFooter">Contact us</h3>
+                            <ul>
+                                <li>
+                                    <a class="hoverable" href="mailto:HR@byndco.com">HR@byndco.com</a>
+                                </li>
+                                <li>
+                                    <a class="hoverable" href="mailto:BD@byndco.com">BD@byndco.com</a>
+                                </li>
+                                <li>
+                                    <a class="hoverable" href="tel:96597324128">+965 9732 4128</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="footerCard">
+                            <h3 class="titleFooter">Links</h3>
+                            <ul>
+                                <li>
+                                    <a class="hoverable" href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="hoverable" href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a class="hoverable" href="#">Projects</a>
+                                </li>
+                                <li>
+                                    <a class="hoverable" href="#">Recent Works</a>
+                                </li>
+                                <li>
+                                    <a class="hoverable" href="#">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="footerCard">
+                            <h3 class="titleFooter">Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Instagram</a>
+                                </li>
+                                <li>
+                                    <a href="#">Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="#">Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="#">Facebook</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="bottomFooter">
+                <ul>
+                    <li>
+                        <span>© 2023 Bynd. All right reserved</span>
+                    </li>
+                    <li>
+                        <a class="hoverable" href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hoverable" href="#">
+                            Terms of Service
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollToTop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="27" viewBox="0 0 19 27" fill="none">
+            <path d="M9.50007 24.874L9.50007 1.63184M9.50007 1.63184L1.51685 9.61506M9.50007 1.63184L17.4833 9.61506" stroke="black" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        <br> TOP
+    </a>
+    <!-- ============================================================== -->
+    <!-- Scripts Js -->
+    <!-- ============================================================== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--JQuery Js-->
+    <script src="assets/js/jQuery.js"></script>
+    <!--ScrollTrigger-->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!--lenis-->
+    <script src="assets/js/lenis.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/script_lenis.js"></script>
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!---->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!--Main Js-->
+    <script src="assets/js/main.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper.bannerSlider", {
+            slidesPerView: 1,
+            effect: 'fade',
+            loop: true,
+            autoplay: {
+                delay: 2000,
+            },
+            fadeEffect: {
+                crossFade: true,
+            },
+            speed: 2000
+        });
+    </script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper.ourWorkSlider", {
+            slidesPerView: 1.25,
+            spaceBetween: 126,
+            centeredSlides: true,
+            paginationClickable: true,
+            loop: false,
+            slideToClickedSlide: true,
+            autoplay: {
+                delay: 2000,
+            },
+            autoplay: false,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            speed: 2000
+        });
+    </script>
+</body>
+
+</html>

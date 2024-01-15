@@ -1,0 +1,195 @@
+// SASS Variables
+$white: #fff;
+$navy: #1A1D1F;
+$navy-dark: #1A1D1F;
+$navy-light: #494a50;
+// Moves menu to the left/right side of screen
+header {
+    padding: 26px 0 26px 0;
+    transition: ease-in-out 0.5s;
+}
+
+$menu-orientation: right;
+@media screen and (max-width: 600px) {
+    .pushNav {
+        width: 100%;
+        #{$menu-orientation}: -100%;
+        padding-left: 20px;
+    }
+    .closeLevel {
+        padding: 26px 20px 0px 0 !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .pushNav {
+        width: 398px;
+        #{$menu-orientation}: -398px;
+        padding-left: 72px;
+    }
+}
+
+ul.pushNav {
+    margin: 0;
+    list-style-type: none;
+    overflow: auto;
+}
+
+.pushNav {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    background: $navy;
+    transition: ease-in-out 0.5s;
+}
+
+.whiteLogo {
+    display: none;
+    transition: ease-in-out 0.5s;
+}
+
+.pushNavIsOpen {
+    overflow: auto;
+    height: 100%;
+    background: #1A1D1F;
+    .colorLogo {
+        display: none;
+    }
+    .whiteLogo {
+        display: block;
+    }
+}
+
+.js-topPushNav.isOpen,
+.pushNav_level.isOpen {
+    #{$menu-orientation}: 0;
+}
+
+.closeLevel,
+.openLevel {
+    cursor: pointer !important;
+}
+
+.openLevel,
+.closeLevel,
+.pushNav a {
+    display: block;
+    font-size: 28px;
+    margin-bottom: 28px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.50);
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    &.active {
+        color: #fff;
+        font-family: 'Inter-ExtraBold';
+    }
+    &:hover {
+        -webkit-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+        color: #fff;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 16px;
+        margin-bottom: 22px;
+    }
+}
+
+.hdg {
+    background-color: $navy-dark;
+}
+
+.closeLevel {
+    padding: 26px 100px 0px 0;
+    margin-bottom: 60px;
+    text-align: right;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    img {
+        width: 47px;
+        cursor: pointer !important;
+    }
+}
+
+.burger {
+    position: relative;
+    text-align: right;
+    cursor: pointer !important;
+}
+
+.bottomList {
+    margin-top: 100px;
+    @media screen and (max-width: 600px) {
+        margin-top: 45px;
+    }
+    .cardNav {
+        margin-bottom: 32px;
+        &:last-child {
+            margin-top: 54px;
+        }
+        span {
+            color: rgba(255, 255, 255, 0.60);
+            font-size: 17.42px;
+            line-height: 24.58px;
+            letter-spacing: 0.871px;
+            display: block;
+            margin-bottom: 14.2px;
+            font-family: 'Inter-SemiBold';
+            @media screen and (max-width: 600px) {
+                font-size: 15px;
+                margin-bottom: 0;
+            }
+        }
+        a {
+            color: #fff !important;
+            font-size: 26.13px;
+            line-height: 24.58px;
+            text-decoration-line: underline;
+            font-family: 'Inter-Medium';
+            @media screen and (max-width: 600px) {
+                font-size: 16px;
+            }
+        }
+        h3 {
+            color: #fff;
+            font-size: 24px;
+            line-height: 26.461px;
+            font-family: 'Inter-Bold';
+            margin-bottom: 16px;
+            @media screen and (max-width: 600px) {
+                font-size: 16px;
+                margin-bottom: 6px;
+            }
+        }
+        .socila {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            padding: 16px 0;
+            a {
+                display: block;
+                margin-bottom: 0;
+                -webkit-transition: all 1s ease-out;
+                transition: all 1s ease-out;
+                &:hover {
+                    -webkit-transition: all 1s ease-out;
+                    transition: all 1s ease-out;
+                    svg {
+                        path {
+                            fill: $bluebg;
+                        }
+                    }
+                }
+                svg {
+                    @media screen and (max-width: 600px) {
+                        width: 15px !important;
+                    }
+                }
+            }
+        }
+    }
+}

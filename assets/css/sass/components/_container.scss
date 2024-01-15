@@ -1,0 +1,17 @@
+.halfcontainer {
+    @media screen and (min-width: 576px) {
+        margin-left: 0;
+    }
+    @media screen and (min-width: 768px) {
+        margin-left: 0;
+    }
+    @media screen and (min-width: 992px) {
+        margin-left: calc((100% - 960px) / 2);
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: calc((100% - 1140px) / 2);
+    }
+    @media screen and (min-width: 1400px) {
+        margin-left: calc((100% - 1320px) / 2);
+    }
+}

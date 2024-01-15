@@ -1,0 +1,35 @@
+.btn-primary {
+    min-height: 38px;
+    min-width: 287px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: $btnPrimary;
+    border-radius: 53px;
+    border: 1px solid $btnPrimary;
+    font-size: 18px;
+    line-height: 37px;
+    padding: 12px 43px;
+    text-transform: capitalize;
+    @include prefix(transition, all 0.8s ease-out, webkit moz);
+    font-family: 'Inter-Bold';
+    svg {
+        @include prefix(transition, all 0.8s ease-out, webkit moz);
+    }
+    &:hover {
+        background: $btnPrimaryHover;
+        border: 1px solid $btnPrimaryHover;
+        svg {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        padding: 10px 0;
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin: 15px 0;
+    }
+}
